@@ -1,0 +1,162 @@
+/* Container geral */
+.painelContainer {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+/* Título principal */
+.tituloPainel {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* Cards */
+.cardFiltros,
+.cardPrompt {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Título da seção */
+.tituloSessao {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Item de filtro */
+.filtroItem {
+    margin-bottom: 25px;
+}
+
+.filtroItem label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Inputs */
+.inputSelect,
+.inputText {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d0d0;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.inputSelect:focus,
+.inputText:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+/* Checkbox */
+.checkboxGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.checkboxItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+/* Instrumentos */
+.instrumentosLista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.instrumentoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.btnRemover {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.btnRemover:hover {
+    background: #d93636;
+}
+
+.addInstrumento {
+    display: flex;
+    gap: 10px;
+}
+
+/* Botão adicionar */
+.btnAdicionar {
+    background: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btnAdicionar:hover {
+    background: #3a5dca;
+}
+
+/* Botão principal */
+.btnGerar {
+    margin-top: 10px;
+    width: 100%;
+    padding: 14px;
+    background: #1cc88a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btnGerar:hover {
+    background: #17a673;
+}
+
+/* Área do prompt */
+.textareaPrompt {
+    width: 100%;
+    padding: 15px;
+    resize: vertical;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    font-size: 16px;
+    background: #fafafa;
+}
+
+.textareaPrompt:focus {
+    border-color: #4e73df;
+    outline: none;
+}
