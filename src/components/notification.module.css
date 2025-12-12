@@ -1,0 +1,51 @@
+@keyframes esvanecer {
+  0% {
+    opacity: 0;
+    display: block;
+    right: 0vw;
+  }
+
+  10% {
+    opacity: 1;
+    display: block;
+    right: 1vw;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.d_boxNotificationSuccess {
+  opacity: 1;
+  position: fixed;
+  /* top: 1vw; */
+  bottom: 1vw;
+  right: 2vw;
+  font-size: 12px;
+  background-color: rgba(5, 228, 153, 5);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  border-radius: 8px;
+  animation: esvanecer 1s ease-in-out;
+}
+
+.d_boxNotificationFailure {
+  opacity: 1;
+  position: fixed;
+  /* top: 1vw; */
+  bottom: 1vw;
+  right: 2vw;
+  font-size: 12px;
+  background-color: rgb(247, 5, 5);
+  color: white;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  border-radius: 8px;
+  animation: esvanecer 1s ease-in-out;
+}
+

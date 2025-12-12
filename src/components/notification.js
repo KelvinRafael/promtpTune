@@ -1,10 +1,11 @@
 import React from "react";
+import style from "./notification.module.css"
 
 export function NotificationFailure({message}){
     return(
-        <div>
+        <div className={style.d_boxNotificationFailure}>
             <div>
-                <h1>{message}</h1>
+                <p>{message}</p>
             </div>
         </div>
     )
@@ -12,20 +13,20 @@ export function NotificationFailure({message}){
 
 export function NotificationSuccess({message}){
     return(
-        <div>
+        <div className={style.d_boxNotificationSuccess}>
             <div>
-                <h1>{message}</h1>
+                <p>{message}</p>
             </div>
         </div>
     )
 };
 
-export function NotificationWarning({message}){
-    return(
-        <div>
-            <div>
-                <h1>{message}</h1>
-            </div>
-        </div>
-    )
-};
+// export function NotificationWarning({message}){
+//     return(
+//         <div className={style.d_boxNotificationWarning}>
+//             <div>
+//                 <p>{message}</p>
+//             </div>
+//         </div>
+//     )
+// };
