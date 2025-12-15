@@ -311,6 +311,10 @@ The song should follow the traditional characteristics of the genre and maintain
     }
   }
 
+  function fantasma(){
+    window.alert("Fantasma")
+  }
+
   function clear() {
     setNotification("Resetado");
     setGenero([]);
