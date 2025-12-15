@@ -101,16 +101,16 @@ const generos = [
 ];
 
 const efeitos = [
-  "Romântico",
-  "Animado",
-  "Melancólico",
-  "Nostálgico",
-  "Festivo",
-  "Reflexivo",
-  "Energético",
-  "Intimista",
-  "Esperançoso",
-  "Dramático",
+  "Romantic",
+  "Animated",
+  "Melancholy",
+  "Nostalgic",
+  "Festive",
+  "Reflective",
+  "Energy",
+  "Intimate",
+  "Hopeful",
+  "Dramatic",
 ];
 
 const instrumentosPorGenero = {
